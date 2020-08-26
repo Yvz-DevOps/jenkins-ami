@@ -32,4 +32,11 @@
     "sudo systemctl start artemis",
     "sudo systemctl enable artemis"
     ]
+    },
+    {
+    "type": "breakpoint",
+    "note": "Wait for you to delete"
     }
+    ]
+    }
+    

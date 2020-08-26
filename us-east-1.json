@@ -1,5 +1,0 @@
-{
-    "region": "us-east-1",
-    "ssh_username": "centos",
-    "ssh_keypair_name": "bastion-key"
-} 

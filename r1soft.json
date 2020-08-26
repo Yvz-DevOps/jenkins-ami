@@ -14,7 +14,10 @@
          "source": "r1soft.repo",
           "destination": "/tmp/"
            },
-        
+           {
+            "type": "breakpoint",
+            "note": "Wait for you to delete"
+          },
         {
       "type": "shell",
          "inline":[
@@ -26,12 +29,18 @@
             "sudo systemctl enable cdp-server"
            ]
          },
-        
+         {
+            "type": "breakpoint",
+            "note": "Wait for you to delete"
+          },
       {
       "type": "shell",
           "script": "script.sh"
           },
-   
+          {
+            "type": "breakpoint",
+            "note": "Wait for you to delete"
+          }
        ]
 }
   
